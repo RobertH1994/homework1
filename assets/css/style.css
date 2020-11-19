@@ -18,13 +18,12 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    color: white;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
-}
+/* removed seo header color */
 
-.header div {
+.header section {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,17 +31,13 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
-    list-style-type: none;
-}
-
-.header div ul li {
+.header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
 a {
-    color: #ffffff;
+    color:white;
     text-decoration: none;
 }
 
@@ -76,7 +71,7 @@ p {
 }
 
 /* changed padding from20px to 43px */
-.benefits {
+.benefits { 
     margin-right: 20px;
     padding: 43px;
     clear: both;
@@ -87,16 +82,11 @@ p {
     background-color: #2589bd;
 }
 
-/* removed extra benefit colors */
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
 /* removed extra benefit h3 */
 .benefit {
     margin-bottom: 10px;
     text-align: center;
+    color: white;
 }
 
 /* removed extra .benefit img */
@@ -167,6 +157,4 @@ p {
     text-align: center;
 }
 
-.footer h2 {
-    font-size: 20px;
-}
+/* removed .footer h2 */
